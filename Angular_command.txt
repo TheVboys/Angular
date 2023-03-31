@@ -11,4 +11,9 @@ ng g c Component_Name
 ng g c Component_Name --standalone
 
 -- Add Material
-ng add @angsular/material
+ng add @angular/material
+
+-- Directive Composition API
+ng g d directive/italicsFont --standalone
+       <---v---> <----v---->
+	 folder	    styles[italicsFont, fontColor...]
