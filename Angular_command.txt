@@ -1,0 +1,14 @@
+ANGULAR15
+Dùng node có version lẻ --> 15. 17. 19.
+
+-- Angular Start
+ng serve -o
+
+-- Create Component
+ng g c Component_Name
+
+-- Create Standalone Component 
+ng g c Component_Name --standalone
+
+-- Add Material
+ng add @angsular/material
