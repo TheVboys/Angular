@@ -1,8 +1,13 @@
 ANGULAR15
 Dùng node có version lẻ --> 15. 17. 19.
 
+
+
 -- Angular Start
 ng serve -o
+
+-- Update core
+ng update @angular/cli @angular/core
 
 -- Create Component
 ng g c Component_Name
